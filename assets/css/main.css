@@ -1,3 +1,50 @@
-body {
-    background: black;
+html {
+    background: url(../img/sf-tag.png) no-repeat center center fixed #DEEBFD; 
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    min-width: 236px;
+}
+
+.page-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.t {
+    margin: 75px auto;
+}
+
+.w {
+    width: 100%;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.4;
+    box-sizing: border-box;
+    color: #424242;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+    color: #424242;
 }

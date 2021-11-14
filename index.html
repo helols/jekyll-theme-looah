@@ -4,17 +4,26 @@
     <meta charset="utf-8">
     <meta name="keywords" content="looah, social, community, translation, translate, online, news, photo, twitter, blog, global, language, culture"/>
     <meta name="author" content="Looah, LLC"/>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="copyright" content="© {{ 'now' | date: "%Y" }} Looah, LLC"/>
     <meta name="description" content="looah, where community posts, translates, and discusses current affairs, breaking news, twitter and blog from all around the world." />
     <title>Welcome to Looah</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl }}"/>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
     <main class="page-content" aria-label="Content">
+      <div class="t">
+        <img src="assets/img/logo.png" class="logo">
+      </div>
       <div class="w">
-        {{ content }}
+        <div class="tagline">
+          We'll be back.
+        </div>
+        <p class="contact">Any questions? <a href="mailto:help@looah.com">help@looah.com</a></p>
       </div>
     </main>
   </body>
